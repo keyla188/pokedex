@@ -1,0 +1,61 @@
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+button {
+    font-size: 25px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 160px;
+    height: 250px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+
+#logo:hover {
+    transform: scale(1.2);
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    #block-red {
+        height: 100vh;
+    }
+
+    #block-black {
+        display: none;
+    }
+
+    .button {
+        position: fixed;
+        top: 330px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    #logo {
+        width: 80%;
+    }
+}

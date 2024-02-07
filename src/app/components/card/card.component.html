@@ -1,0 +1,16 @@
+<div class="card">
+    <a [routerLink]="['/pokemon', pokemonData.id]" [state]="{ pokemon: pokemonData }">
+        <div class="top" [ngClass]="'bg-' + pokemonData.types[0]?.type.name">
+            <div class="card-id">
+                <p>#{{pokemonData.id}}</p>
+            </div>
+            <div class="card-img">
+                <img src="{{ pokemonData.sprites.other['official-artwork'].front_default }}" />
+            </div>
+        </div>
+
+        <div class="card-description">
+            <p>{{pokemonData.name}}</p>
+        </div>
+    </a>
+</div>

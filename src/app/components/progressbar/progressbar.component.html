@@ -1,0 +1,6 @@
+<div class="stat">
+    <p>{{statData.stat.name}}</p>
+    <progress class="progress-bar" value="{{statData.base_stat}}" max="100"
+        [ngClass]="'bg-' + pokemon.types[0]?.type.name"></progress>
+    <p>{{statData.base_stat}}</p>
+</div>

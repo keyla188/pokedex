@@ -1,1 +1,249 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(251, 228, 57);
+    border: 1px solid blue;
+    color: black;
+}
+
+
+#block-red {
+    min-height: 100px;
+    height: 50vh;
+    background-color: #B4232C;
+    transition: height 0.5s ease;
+}
+
+#block-black {
+    height: 40px;
+    background-color: black;
+}
+
+input {
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 80%;
+}
+
+select {
+    width: 50%;
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container-body {
+    padding: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1vw;
+    padding: 50px 10px;
+}
+
+
+.bg-normal,
+progress.bg-normal::-webkit-progress-value {
+    background-color: #A8A77A;
+    color: #fff;
+}
+
+.bg-fire,
+progress.bg-fire::-webkit-progress-value {
+    background-color: #EE8130;
+    color: #fff;
+}
+
+.bg-water,
+progress.bg-water::-webkit-progress-value {
+    background-color: #6390F0;
+    color: #fff;
+}
+
+.bg-electric,
+progress.bg-electric::-webkit-progress-value {
+    background-color: #F7D02C;
+    color: #fff;
+}
+
+.bg-grass,
+progress.bg-grass::-webkit-progress-value {
+    background-color: #7AC74C;
+    color: #ddead5;
+}
+
+.bg-ice,
+progress.bg-ice::-webkit-progress-value {
+    background-color: #96D9D6;
+    color: #fff;
+}
+
+.bg-fighting,
+progress.bg-fighting::-webkit-progress-value {
+    background-color: #C22E28;
+    color: #fff;
+}
+
+.bg-poison,
+progress.bg-poison::-webkit-progress-value {
+    background-color: #A33EA1;
+    color: #fff;
+}
+
+.bg-ground,
+progress.bg-ground::-webkit-progress-value {
+    background-color: #E2BF65;
+    color: #fff;
+}
+
+.bg-flying,
+progress.bg-flying::-webkit-progress-value {
+    background-color: #A98FF3;
+    color: #fff;
+}
+
+.bg-psychic,
+progress.bg-psychic::-webkit-progress-value {
+    background-color: #F95587;
+    color: #fff;
+}
+
+.bg-bug,
+progress.bg-bug::-webkit-progress-value {
+    background-color: #A6B91A;
+    color: #fff;
+}
+
+.bg-rock,
+progress.bg-rock::-webkit-progress-value {
+    background-color: #B6A136;
+    color: #fff;
+}
+
+.bg-ghost,
+.bg-shadow,
+progress.bg-ghost::-webkit-progress-value,
+progress.bg-shadow::-webkit-progress-value {
+    background-color: #735797;
+    color: #fff;
+}
+
+.bg-dragon,
+progress.bg-dragon::-webkit-progress-value {
+    background-color: #6F35FC;
+    color: #fff;
+}
+
+.bg-dark,
+progress.bg-dark::-webkit-progress-value {
+    background-color: #705746;
+    color: #fff;
+}
+
+.bg-steel,
+progress.bg-steel::-webkit-progress-value {
+    background-color: #B7B7CE;
+    color: #fff;
+}
+
+.bg-fairy,
+progress.bg-fairy::-webkit-progress-value {
+    background-color: #D685AD;
+    color: #fff;
+}
+
+.bg-unknown,
+progress.bg-unknown::-webkit-progress-value {
+    background-color: #aaa;
+    color: #fff;
+}
+
+app-loader {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    button {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    input,
+    select {
+        font-size: 12px;
+    }
+
+    .pagination {
+        font-size: 1.1vh;
+    }
+
+}

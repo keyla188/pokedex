@@ -1,0 +1,9 @@
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px 20px;
+}
