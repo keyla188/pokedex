@@ -30,7 +30,6 @@ export class DetailsComponent implements OnInit {
       this.pokemon = history.state.pokemon;
       console.log(this.pokemon);
     } else {
-      console.log('NO HAY');
     }
   }
 
